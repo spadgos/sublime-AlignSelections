@@ -4,8 +4,8 @@ This would typically be used to make long blocks of assignments or function call
 
 ```javascript
 var someVariable = 'foo',
-    me           = this,
-    Tyrtle       = require('Tyrtle'),
+    me = this,
+    Tyrtle = require('Tyrtle'),
     HtmlRenderer = require('tyrtle/renderers/html')
 ;
 ```
