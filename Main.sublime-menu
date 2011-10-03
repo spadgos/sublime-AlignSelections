@@ -1,0 +1,13 @@
+[
+    {
+        "id": "selection",
+        "children":
+        [
+            {
+                "caption": "Align Selections",
+                "id": "align_selections",
+                "command" : "align_selections"
+            }
+        ]
+    }
+]
