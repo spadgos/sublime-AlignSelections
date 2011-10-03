@@ -9,11 +9,11 @@ class AlignSelectionsCommand(sublime_plugin.TextCommand):
         regions = v.sel()
         blocks = []
         for r in regions:
-            _, col = v.rowcol(r.end())
+            _, col = v.rowcol(r.begin())
             maxCol = max(col, maxCol)
             blocks.append(r)
 
         blocks.reverse()
         for r in blocks:
-            _, col = v.rowcol(r.end())
-            v.insert(edit, r.end(), " " * (maxCol - col))
+            _, col = v.rowcol(r.begin())
+            v.insert(edit, r.begin(), " " * (maxCol - col))
