@@ -1,4 +1,4 @@
-This plugin will simply align a number of selections by inserting spaces on each line until they align.
+This [SublimeText2][sublime] plugin will simply align a number of selections by inserting spaces on each line until they align.
 
 This would typically be used to make long blocks of assignments or function calls more readable. For example:
 
@@ -19,3 +19,5 @@ var someVariable = 'foo',
     HtmlRenderer = require('tyrtle/renderers/html')
 ;
 ```
+
+[sublime]: http://www.sublimetext.com/
